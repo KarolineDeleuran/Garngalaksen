@@ -1,0 +1,397 @@
+body {
+    background-color: #fcfbf4;
+}
+
+/*------- main menu---*/
+.main_menu {
+    background-color: #fcfbf4;
+    padding: 15px 0;
+}
+
+.inner_main_menu {
+margin: 0 auto;
+width: 1170px;
+}
+
+.inner_main_menu ul {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    padding-top: 20px;
+    font-family: 'Didot';
+}
+.inner_main_menu ul li {
+    float: none;
+    display: inline-block;
+}
+.inner_main_menu ul li:nth-child(1) {
+    float: left;
+}
+
+.inner_main_menu ul li:nth-child(2) {
+    float: left ;
+}
+
+.inner_main_menu ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.inner_main_menu ul li a:hover {
+    color: #a076e2;
+}
+
+#mainmenu {
+    width: 100%; position:relative
+}
+.logo_area {
+    width: 200px;
+    height: 300px;
+    position: absolute; left: 50%; top: 0; 
+    content:""; 
+    margin-left: -100px;
+}
+.logo_area a img {
+    width: 200px;
+}
+
+
+/*----footer*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #a076e2;
+    height: auto;
+    width: 100vw;
+    padding-top: 5px;
+    color: #000000;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.logo_footer a img {
+    width: 150px;
+}
+    
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #000000;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #8c9fec
+}
+
+/*---billedesider---*/
+
+.billedeside {
+    width: 1450px;
+    padding-top: 20px;
+}
+
+/*----forside---*/
+
+.forsidebanner {
+    padding-top: 20px;
+    width: 1440px;
+}
+
+.erduny { 
+    background-color:#fcfbf4;
+    border: 5px solid #a076e2;
+    width: 700px;
+      margin: auto;padding-bottom:30px;
+    border-radius:1em;
+    margin-bottom: 100px;
+    font-family: 'Didot';
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.flexboxforside {
+    padding-top: 30px;
+}
+
+.saturnbillede {
+    width: 300px;
+    height: 300px;
+}
+
+/*-----basics---*/
+
+.basicsbanner {
+    padding-top: 30px;
+    width: 1450px;
+}
+.startguidebanner img {
+    padding-top: 100px;
+    width: 1450px;
+}
+.basicsartikler img {
+    width: 1450px;
+
+}
+
+/*----hvorforhækling----*/
+
+.hvorforhæklingbanner img{
+    padding-top: 30px;
+    width: 1450px;
+}
+
+.hvorforhæklingartikler img {
+    width: 1450px;
+    padding-top: 50px;
+}
+
+/*-----startguideartikel---*/
+
+.text { 
+    background-color:#8c9fec;
+    border: 40px solid #8c9fec;
+    width: 780px;
+      margin: auto;padding-bottom:30px;
+    border-radius:1em;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    color: #fcfbf4;
+    position:relative;
+    padding: 25px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+
+}
+
+.flex-container {
+    display: flex;
+    width: 800px;
+    height: 250px;
+}
+
+.flex-itam:nth-child(3) {
+    width: 300px;
+    height: 300px;
+}
+.flex-itam:nth-child(4) {
+    width: 300px;
+    height: 300px;
+}
+
+.flex-item {
+    background-color: #a076e2;
+    border: 5px solid #8c9fec;
+    width: 150px;
+    height:150px;
+    margin: auto;
+  border-radius:4em;
+  color: #fcfbf4;
+  font-family: 'Didot';
+}
+
+.flex-item a {
+    color:#fcfbf4;
+    font-family: 'Didot';
+}
+
+.fif1 {
+    background-color: #a076e2;
+    border: 5px solid #8c9fec;
+    margin: auto;
+    width: 175px;
+    height: 175px;
+  border-radius:100%;
+  color: #fcfbf4;
+  font-family: 'Didot';
+  padding:10px;
+  top:75px;
+  position:absolute;
+  left: -25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fif1 a {
+    color: #fcfbf4;
+}
+.fif2 {
+    background-color: #a076e2;
+    border: 5px solid #8c9fec;
+    margin: auto;
+    width: 225px;
+    height: 225px;
+  border-radius:100%;
+  color: #fcfbf4;
+  font-family: 'Didot';
+  padding:10px;
+  top:30%;
+  position:absolute;
+  right: -25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fif3 {
+    background-color: #a076e2;
+    border: 5px solid #8c9fec;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  border-radius:100%;
+  color: #fcfbf4;
+  font-family: 'Didot';
+  padding:10px;
+  top:50%;
+  position:absolute;
+  left: -40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fif4 {
+    background-color: #a076e2;
+    border: 5px solid #8c9fec;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+  border-radius:100%;
+  color: #fcfbf4;
+  font-family: 'Didot';
+  padding:10px;
+  top:80%;
+  position:absolute;
+  right: -25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*-----hæklingsomafstresningartikel---*/
+
+
+.text h3 {
+color: #fcfbf4;
+letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.text h1 {
+    font-family: 'Didot';
+    text-align: center;
+    color: #fcfbf4;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.text p {
+    text-align: center;
+    color: #fcfbf4;
+    font-size:18px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.text a {
+    color: #8864c1;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.text h2 {
+    font-family: 'Didot';
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.kaffekop {
+  padding:10px;
+  top:15%;
+  position:absolute;
+  right: -75%;
+  display: flex;
+}
+.hæklehjerte {
+    padding:10px;
+    top:10%;
+    position:absolute;
+    left: -45%;
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
+
+  .sweaterweaather {
+    padding:10px;
+    top:65%;
+    position:absolute;
+    left: -60%;
+    display: flex;
+    width: 500px;
+    height: 500px;
+  }
+
+  /*--------hæklemønstre-----*/
+
+  .luftmasker img {
+    height: 300px;
+  }
+
+  .fastmasker img {
+    height: 300px;
+  }
+
+  .stangmasker img {
+    height: 300px;
+  }
